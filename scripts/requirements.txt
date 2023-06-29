@@ -1,1 +1,4 @@
-fdfdf
+numpy==1.23.5
+scipy==1.10.0
+matplotlib==3.6.2
+plotly==5.11.0
