@@ -48,7 +48,7 @@ python script_name.py
 Replace script_name.py with the name of the script file you want to execute. For example, if you have a script named 2D_Plane_Stress.py, the command would be:
 
 ```
-python 2D_Plane_Stress.py
+python 2D_Plane_Stress_4Q_FEM.py
 ```
 The script will start running, and you will see the output or results based on the specific functionality of the script.
 
