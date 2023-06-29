@@ -8,7 +8,6 @@ Welcome to the FEM Python Scripts Repository! This repository contains a collect
 - [Usage](#usage)
 - [Folder Structure](#folder-structure)
 - [License](#license)
-- [Contributing](#contributing)
 - [Contact](#contact)
 
 ## Introduction
@@ -24,29 +23,49 @@ Feel free to explore the repository and adapt the scripts to suit your specific 
 To use the scripts in this repository, follow these steps:
 
 1. Clone the repository to your local machine:
-git clone https://github.com/your-username/fem-python-scripts.gi
+```
+git clone https://github.com/Lalis98/FEM.git
+```
 2. Install the required dependencies. Please refer to the `requirements.txt` file for the specific packages and versions needed. You can install them using pip:
-3. [Add any other installation instructions if necessary]
+```
+pip install -r requirements.txt
+```
 
 ## Usage
-[Provide instructions on how to use the scripts. Include examples or a brief tutorial to help users get started.]
+To use the scripts in this repository, follow these instructions:
+
+Ensure that you have Python installed on your system. You can download the latest version of Python from the official Python website (https://www.python.org) and follow the installation instructions specific to your operating system.
+
+Install the required dependencies mentioned in the requirements.txt file. Refer to the previous instructions in this README file on how to install the dependencies using pip.
+
+Open a terminal or command prompt and navigate to the directory where the scripts are located.
+
+To run a specific script, use the following command:
+
+```
+python script_name.py
+```
+Replace script_name.py with the name of the script file you want to execute. For example, if you have a script named 2D_Plane_Stress.py, the command would be:
+
+```
+python 2D_Plane_Stress.py
+```
+The script will start running, and you will see the output or results based on the specific functionality of the script.
 
 ## Folder Structure
-The repository is organized as follows:
+The repository follows a simple folder structure:
 
-- `/src`: Contains the main FEM Python scripts.
-- `/examples`: Example FEM simulations and usage scenarios.
-- `/docs`: Documentation files or additional resources.
+- `scripts/`: This directory contains the individual scripts for different simulations. Each script represents a specific simulation scenario or case. You can run these scripts independently to perform the desired simulation.
 
-Feel free to explore the different folders to find the scripts you need for your specific FEM analysis.
+  - `requirements.txt`: This file, located within the `scripts/` directory, lists the required Python packages and their versions. You can install these dependencies using `pip` as mentioned earlier.
+
+It is recommended to organize your scripts in a way that makes sense for your project. You can create subdirectories within the `scripts/` directory to group related simulations or categorize them based on specific criteria.
+
+Feel free to adapt the folder structure based on your requirements and add any additional directories or files as needed for your project.
+
 
 ## License
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
-
-## Contributing
-Contributions to this repository are welcome! If you have any improvements, bug fixes, or new scripts to add, please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md). Together, we can enhance this repository and make it more valuable for the FEM community.
-
-<a name="contact"/>efefefef<a>
+This project is not licensed. All rights are reserved.
 
 ## Contact
 If you have any questions, suggestions, or feedback, please feel free to reach out to the repository owner, Michalis Lefkiou, at:
